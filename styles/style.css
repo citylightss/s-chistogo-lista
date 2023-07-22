@@ -1,8 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	background-color: #3d3838;
-	font-family: Inter;
+	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
 }
@@ -51,6 +52,7 @@ blockquote {
 .header__menu-item {
 	list-style-type: none;
 	font-size: 16px;
+	margin-bottom: 12px;
 }
 
 .header__menu-link {
@@ -63,7 +65,7 @@ blockquote {
 }
 
 .cover {
-	padding: 30px 20px 30px 20px;
+	padding: 0 20px 30px 20px;
 	background-image: url(/images/cover.svg);
 	background-repeat: no-repeat;
 	background-size: 95% auto;
@@ -72,7 +74,7 @@ blockquote {
 
 .cover__title {
 	color: #fff;
-	font-family: EB Garamond;
+	font-family: "EB Garamond";
 	font-size: 72px;
 	font-style: normal;
 	font-weight: 400;
@@ -99,12 +101,11 @@ blockquote {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
-		color: #ccc;
+	color: #ccc;
 	font-size: 16px;
 	line-height: 120%;
 	padding-bottom: 24px;
 }
-
 
 .intro__main-text {
 	color: #f5f5f5;
@@ -123,7 +124,7 @@ blockquote {
 
 .content-section__subtitle {
 	color: #131313;
-	font-family: EB Garamond;
+	font-family: "EB Garamond";
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 500;
@@ -168,6 +169,10 @@ blockquote {
 	margin-bottom: 32px;
 }
 
+.last_card {
+	margin-bottom: 0;
+}
+
 .card_theme_dark {
 	background: #343434;
 	color: #f5f5f5;
@@ -186,7 +191,7 @@ blockquote {
 }
 
 .card__title {
-	font-family: EB Garamond;
+	font-family: "EB Garamond";
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 500;
@@ -205,7 +210,7 @@ blockquote {
 }
 
 .footer {
-	padding: 0 20px 20px 20px;
+	padding: 10px 20px 20px 20px;
 	display: flex;
 	justify-content: space-between;
 }
