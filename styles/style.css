@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	background-color: #3d3838;
 	font-family: "Inter";
 	font-style: normal;
@@ -66,7 +65,7 @@ blockquote {
 
 .cover {
 	padding: 0 20px 30px 20px;
-	background-image: url(/images/cover.svg);
+	background-image: url(./images/cover.svg);
 	background-repeat: no-repeat;
 	background-size: 95% auto;
 	background-position: center;
