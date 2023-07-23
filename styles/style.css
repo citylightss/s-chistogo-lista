@@ -111,10 +111,9 @@ blockquote {
 	font-family: Inter;
 	font-size: 16px;
 	line-height: 135%;
-}
-
-.main-text-1 {
-	padding-bottom: 24px;
+	display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .reason {
@@ -127,14 +126,14 @@ blockquote {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 115%;
+	line-height: 32.2px;
 	padding-bottom: 32px;
 }
 
 .content-section__introduction {
 	color: #131313;
 	font-size: 20px;
-	line-height: 27px; /* 135% */
+	line-height: 27px;
 	padding-bottom: 32px;
 }
 
@@ -179,7 +178,7 @@ blockquote {
 
 .card__author-photo {
 	max-width: 100px;
-	max-height: auto;
+	height: auto;
 	padding-bottom: 8px;
 }
 
