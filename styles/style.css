@@ -65,7 +65,7 @@ blockquote {
 
 .cover {
 	padding: 0 20px 30px 20px;
-	background-image: url(/images/cover.svg);
+	background-image: url(../images/cover.svg);
 	background-repeat: no-repeat;
 	background-size: 95% auto;
 	background-position: center;
@@ -112,8 +112,8 @@ blockquote {
 	font-size: 16px;
 	line-height: 135%;
 	display: inline-flex;
-  flex-direction: column;
-  gap: 24px;
+	flex-direction: column;
+	gap: 24px;
 }
 
 .reason {
@@ -208,9 +208,10 @@ blockquote {
 }
 
 .footer {
-	padding: 10px 20px 20px 20px;
+	padding: 20px;
 	display: flex;
 	justify-content: space-between;
+	border-top: 1px solid #fee42a;
 }
 
 .footer__copy {
